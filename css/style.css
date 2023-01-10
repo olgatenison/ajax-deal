@@ -98,8 +98,21 @@ h6 {
   width: 100%;
 }
 .hero {
-  background-color: black;
-  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+
+  background-image: linear-gradient(
+      to right,
+      rgba(173, 29, 72, 0.4),
+      rgba(155, 16, 58, 0.4)
+    ),
+    url(https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .aside-wrapper {
   display: flex;
